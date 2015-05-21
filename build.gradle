@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile("junit:junit:4.11")
+}
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+jar {
+    baseName = 'BinaryTree'
+    version = '0.0.1-SNAPSHOT'
+}
